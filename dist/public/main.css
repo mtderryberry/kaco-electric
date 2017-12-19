@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+#mainContent {
+  height: 100%; }
+
+.content-view {
+  height: calc(100% - 64px); }
+
+.page-content {
+  height: 100%; }
+#kacoElectricNavbar {
+  background-color: black; }
+  #kacoElectricNavbar img {
+    height: 55%;
+    width: 2%; }
