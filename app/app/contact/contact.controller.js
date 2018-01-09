@@ -25,7 +25,7 @@
 					/* more items */
 				],
 				ToAddresses: [
-					'mderryberryt@gmail.com',
+					'tkacoyannakis@kacoelectric.com',
 					/* more items */
 				]
 			},

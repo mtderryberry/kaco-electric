@@ -7,6 +7,8 @@
   function AboutCtrl($scope) {
     let self = this;
 
+    require("../../assets/images/wires.jpg");
+
   }
 
 })();

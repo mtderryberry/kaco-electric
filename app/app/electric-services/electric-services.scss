@@ -1,0 +1,13 @@
+.services-content {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.services-section {
+	text-align: center;
+
+	.material-icons {
+		font-size: 50px !important;
+	}
+}

@@ -9,5 +9,8 @@
 
     	function HomeCtrl($scope) {
     		let self = this;
+
+    		require("../../assets/images/bulb-side-background.jpg");
+    		require("../../assets/images/kaco-white.png");
 		}
 })();

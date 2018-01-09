@@ -147,7 +147,7 @@
 /******/ 	__webpack_require__.oe = function(err) { console.error(err); throw err; };
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -10414,7 +10414,7 @@ return jQuery;
 /* 1 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(5);
+__webpack_require__(6);
 module.exports = angular;
 
 
@@ -10422,7 +10422,7 @@ module.exports = angular;
 /* 2 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(7);
+__webpack_require__(8);
 module.exports = 'ngAnimate';
 
 
@@ -10430,12 +10430,13 @@ module.exports = 'ngAnimate';
 /* 3 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(9);
+__webpack_require__(10);
 module.exports = 'ngAria';
 
 
 /***/ }),
-/* 4 */
+/* 4 */,
+/* 5 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10444,18 +10445,24 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_jquery___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_jquery__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_angular__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_angular___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_angular__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_angular_angular_min_js__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_angular_angular_min_js__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_angular_angular_min_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_angular_angular_min_js__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_angular_animate__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_angular_animate___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_angular_animate__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_angular_animate_angular_animate_min_js__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_angular_animate_angular_animate_min_js__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_angular_animate_angular_animate_min_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_angular_animate_angular_animate_min_js__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_angular_aria__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_angular_aria___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_angular_aria__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_angular_material__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_angular_material__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_angular_material___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_angular_material__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_angular_ui_router__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_angular_ui_router__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_angular_ui_router___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_angular_ui_router__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_ng_image_gallery_dist_ng_image_gallery_min_js__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_ng_image_gallery_dist_ng_image_gallery_min_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_ng_image_gallery_dist_ng_image_gallery_min_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_ng_image_gallery_dist_ng_image_gallery_min_css__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_ng_image_gallery_dist_ng_image_gallery_min_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_ng_image_gallery_dist_ng_image_gallery_min_css__);
+
+
 
 
 
@@ -10466,7 +10473,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 5 */
+/* 6 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(__webpack_provided_window_dot_jQuery) {/**
@@ -44663,7 +44670,7 @@ $provide.value("$locale", {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 6 */
+/* 7 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(__webpack_provided_window_dot_jQuery) {/*
@@ -45006,7 +45013,7 @@ minFrac:2,minInt:1,negPre:"-\u00a4",negSuf:"",posPre:"\u00a4",posSuf:""}]},id:"e
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 7 */
+/* 8 */
 /***/ (function(module, exports) {
 
 /**
@@ -49170,7 +49177,7 @@ angular.module('ngAnimate', [], function initAngularHelpers() {
 
 
 /***/ }),
-/* 8 */
+/* 9 */
 /***/ (function(module, exports) {
 
 /*
@@ -49233,7 +49240,7 @@ d.push(n.start());c.all(d,function(a){e.complete(a)});var e=new c({end:a(),cance
 
 
 /***/ }),
-/* 9 */
+/* 10 */
 /***/ (function(module, exports) {
 
 /**
@@ -49640,7 +49647,7 @@ ngAriaModule.directive('ngShow', ['$aria', function($aria) {
 
 
 /***/ }),
-/* 10 */
+/* 11 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // Should already be required, here for clarity
@@ -49651,14 +49658,14 @@ __webpack_require__(2);
 __webpack_require__(3);
 
 // Now load Angular Material
-__webpack_require__(11);
+__webpack_require__(12);
 
 // Export namespace
 module.exports = 'ngMaterial';
 
 
 /***/ }),
-/* 11 */
+/* 12 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(__webpack_provided_window_dot_jQuery) {/*!
@@ -86054,7 +86061,7 @@ angular.module("material.core").constant("$MD_THEME_CSS", "md-autocomplete.md-TH
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 12 */
+/* 13 */
 /***/ (function(module, exports) {
 
 /**
@@ -90741,6 +90748,604 @@ angular.module('ui.router.state')
   .filter('isState', $IsStateFilter)
   .filter('includedByState', $IncludedByStateFilter);
 })(window, window.angular);
+
+/***/ }),
+/* 14 */
+/***/ (function(module, exports) {
+
+(function(){"use strict";var n={enter:13,esc:27,left:37,right:39};angular.module("thatisuday.ng-image-gallery",["ngAnimate"]).provider("ngImageGalleryOpts",function(){var n={thumbnails:!0,thumbSize:80,thumbLimit:!1,inline:!1,bubbles:!0,bubbleSize:20,imgBubbles:!1,bgClose:!1,piracy:!1,imgAnim:"fadeup",textValues:{imageLoadErrorMsg:"Error when loading the image!",deleteButtonTitle:"Delete this image...",editButtonTitle:"Edit this image...",closeButtonTitle:"Close",externalLinkButtonTitle:"Open image in new tab..."}};return{setOpts:function(t){angular.extend(n,t)},$get:function(){return n}}}).filter("ngImageGalleryTrust",["$sce",function(n){return function(t,i){return n.trustAs(i||"html",t)}}]).directive("ngRightClick",["$parse",function(){return{restrict:"A",scope:!1,link:function(n,t){t.bind("contextmenu",function(t){if(n.piracy==!1)return t.preventDefault(),n.piracy})}}}]).directive("showImageAsync",[function(){return{restrict:"A",scope:!1,link:function(n,t,i){var r=new Image;r.src=i.showImageAsync;r.onload=function(){n.$apply(function(){i.asyncKind=="thumb"?(t.css({backgroundImage:'url("'+i.showImageAsync+'")'}),t.empty()):i.asyncKind=="bubble"&&t.css({backgroundImage:'url("'+i.showImageAsync+'")'})})};r.onerror=function(){t.empty()}}}}]).directive("bubbleAutoFit",["$window","$timeout",function(n,t){return{restrict:"A",scope:!1,link:{pre:function(i,r){var u=function(){var n=r[0].getBoundingClientRect().width;if(n!=0){var u=i.bubbleSize,f=8,e=u+f,s=n/e,t=Math.floor(s),h=n-t*e,c=h/t,o=f+c,l=o+u;i._bubblesInView=t;i._finalBubbleSpace=l;i._bubbleMargin="0 "+o/2+"px";i._safeApply(angular.noop)}};t(u);angular.element(n).bind("resize",function(){t(u)});i.$watch("inline",function(){t(u)});i.$watch("bubbleSize",function(){t(u)});i.$watchCollection("images",function(){t(u)})}}}}]).directive("bubbleAutoScroll",["$window","$timeout",function(n,t){return{restrict:"A",scope:!1,link:function(i){var r=function(){var n=i._bubblesInView-(i._bubblesInView-i._activeImageIndex);t(function(){if(n>i._bubblesInView-2){var t=i._activeImageIndex+1-i._bubblesInView+1;i._bubblesContainerMarginLeft=i._activeImageIndex!=i.images.length-1?"-"+i._finalBubbleSpace*t+"px":"-"+i._finalBubbleSpace*(t-1)+"px"}else i._bubblesContainerMarginLeft="0px"})};angular.element(n).bind("resize",function(){t(r)});i.$watch("_bubblesInView",function(){t(r)});i.$watch("_activeImageIndex",function(){t(r)});i.$watchCollection("images",function(){t(r)})}}}]).directive("ngImageGallery",["$rootScope","$timeout","$q","ngImageGalleryOpts",function(t,i,r,u){return{replace:!0,transclude:!1,restrict:"AE",scope:{images:"=",methods:"=?",conf:"=?",thumbnails:"=?",thumbSize:"=?",thumbLimit:"=?",inline:"=?",bubbles:"=?",bubbleSize:"=?",imgBubbles:"=?",bgClose:"=?",piracy:"=?",imgAnim:"@?",textValues:"=?",onOpen:"&?",onClose:"&?",onDelete:"&?",onEdit:"&?"},template:'<div class="ng-image-gallery img-move-dir-{{_imgMoveDirection}}" ng-class="{inline:inline}" ng-hide="images.length == 0"><div ng-if="thumbnails && !inline" class="ng-image-gallery-thumbnails"><div class="thumb" ng-repeat="image in images track by image.id" ng-if="thumbLimit ? $index < thumbLimit : true" ng-click="methods.open($index);" show-image-async="{{image.thumbUrl || image.url}}" title="{{image.title}}" async-kind="thumb" ng-style="{\'width\' : thumbSize+\'px\', \'height\' : thumbSize+\'px\'}"><div class="loader"><\/div><\/div><\/div><div class="ng-image-gallery-modal" ng-if="opened" ng-cloak><div class="ng-image-gallery-backdrop" ng-if="!inline"><\/div><div class="ng-image-gallery-content" ng-show="!imgLoading" ng-click="backgroundClose($event);"><div class="actions-icons-container"><div class="delete-img" ng-repeat="image in images track by image.id" ng-if="_activeImg == image && image.deletable" title="{{textValues.deleteButtonTitle}}" ng-click="_deleteImg(image)"><\/div><div class="edit-img" ng-repeat="image in images track by image.id" ng-if="_activeImg == image && image.editable" title="{{textValues.editButtonTitle}}" ng-click="_editImg(image)"><\/div><\/div><div class="control-icons-container"><a class="ext-url" ng-repeat="image in images track by image.id" ng-if="_activeImg == image && image.extUrl" href="{{image.extUrl}}" target="_blank" title="{{textValues.externalLinkButtonTitle}}"><\/a><div class="close" ng-click="methods.close();" ng-if="!inline"  title="{{textValues.closeButtonTitle}}"><\/div><\/div><div class="prev" ng-click="methods.prev();" ng-class="{\'bubbles-on\':bubbles}" ng-hide="images.length == 1"><\/div><div class="next" ng-click="methods.next();" ng-class="{\'bubbles-on\':bubbles}" ng-hide="images.length == 1"><\/div><div class="galleria"><div class="galleria-images img-anim-{{imgAnim}} img-move-dir-{{_imgMoveDirection}}"><img class="galleria-image" ng-right-click ng-repeat="image in images track by image.id" ng-if="_activeImg == image" ng-src="{{image.url}}" ondragstart="return false;" ng-attr-alt="{{image.alt || undefined}}"/><\/div><div class="galleria-title-description-wrapper"><div ng-repeat="image in images track by image.id" ng-if="(image.title || image.desc) && (_activeImg == image)"><div class="title" ng-if="image.title" ng-bind-html="image.title | ngImageGalleryTrust"><\/div><div class="desc" ng-if="image.desc" ng-bind-html="image.desc | ngImageGalleryTrust"><\/div><\/div><\/div><div class="galleria-bubbles-wrapper" ng-if="bubbles && !imgBubbles" ng-hide="images.length == 1" ng-style="{\'height\' : bubbleSize+\'px\'}" bubble-auto-fit><div class="galleria-bubbles" bubble-auto-scroll ng-style="{\'margin-left\': _bubblesContainerMarginLeft}"><span class="galleria-bubble" ng-click="_setActiveImg(image);" ng-repeat="image in images track by image.id" ng-class="{active : (_activeImg == image)}" ng-style="{\'width\' : bubbleSize+\'px\', \'height\' : bubbleSize+\'px\', margin: _bubbleMargin}"><\/span><\/div><\/div><div class="galleria-bubbles-wrapper" ng-if="bubbles && imgBubbles" ng-hide="images.length == 1" ng-style="{\'height\' : bubbleSize+\'px\'}" bubble-auto-fit><div class="galleria-bubbles" bubble-auto-scroll ng-style="{\'margin-left\': _bubblesContainerMarginLeft}"><span class="galleria-bubble img-bubble" ng-click="_setActiveImg(image);" ng-repeat="image in images track by image.id" ng-class="{active : (_activeImg == image)}" show-image-async="{{image.bubbleUrl || image.thumbUrl || image.url}}" async-kind="bubble" ng-style="{\'width\' : bubbleSize+\'px\', \'height\' : bubbleSize+\'px\', \'border-width\' : bubbleSize/10+\'px\', margin: _bubbleMargin}"><\/span><\/div><\/div><\/div><\/div><div class="ng-image-gallery-loader" ng-show="imgLoading"><div class="spinner"><div class="rect1"><\/div><div class="rect2"><\/div><div class="rect3"><\/div><div class="rect4"><\/div><div class="rect5"><\/div><\/div><\/div><div class="ng-image-gallery-errorplaceholder" ng-show="imgError"><div class="ng-image-gallery-error-placeholder" ng-bind-html="textValues.imageLoadErrorMsg | ngImageGalleryTrust"><\/div><\/div><\/div><\/div>',link:{pre:function(f,e){var s,h,o,c;if(f._showLoader=function(){f.imgLoading=!0},f._hideLoader=function(){f.imgLoading=!1},f._loadImg=function(n){var t,i;return n?(t=r.defer(),n.hasOwnProperty("cached")||f._showLoader(),i=new Image,i.src=n.url,i.onload=function(){n.hasOwnProperty("cached")||f._hideLoader();n.hasOwnProperty("cached")||(n.cached=!0);t.resolve(n)},i.onerror=function(){n.hasOwnProperty("cached")||f._hideLoader();t.reject("Error when loading img")},t.promise):r.reject()},f._setActiveImg=function(n){f._imgMoveDirection=f.images.indexOf(f._activeImg)-f.images.indexOf(n)==f.images.length-1||f.images.indexOf(f._activeImg)-f.images.indexOf(n)<=0&&f.images.indexOf(f._activeImg)-f.images.indexOf(n)!=-(f.images.length-1)?"forward":"backward";f._loadImg(n).then(function(n){f._activeImg=n;f._activeImageIndex=f.images.indexOf(n);f.imgError=!1},function(){f._activeImg=null;f._activeImageIndex=f.images.indexOf(n);f.imgError=!0})},f._safeApply=function(n){var t=this.$root.$$phase;t=="$apply"||t=="$digest"?n&&typeof n=="function"&&n():this.$apply(n)},f._deleteImg=function(n){var t=function(){var t=f.images.indexOf(n);console.log(t);f.images.splice(t,1);f._activeImageIndex=0};f.onDelete({img:n,cb:t})},f._editImg=function(n){f.inline||f.methods.close();f.onEdit({img:n})},f.images=f.images!=undefined?f.images:[],f.methods=f.methods!=undefined?f.methods:{},f.conf=f.conf!=undefined?f.conf:{},f.$watchCollection("conf",function(n){f.thumbnails=n.thumbnails!=undefined?n.thumbnails:f.thumbnails!=undefined?f.thumbnails:u.thumbnails;f.thumbSize=n.thumbSize!=undefined?n.thumbSize:f.thumbSize!=undefined?f.thumbSize:u.thumbSize;f.thumbLimit=n.thumbLimit!=undefined?n.thumbLimit:f.thumbLimit!=undefined?f.thumbLimit:u.thumbLimit;f.inline=n.inline!=undefined?n.inline:f.inline!=undefined?f.inline:u.inline;f.bubbles=n.bubbles!=undefined?n.bubbles:f.bubbles!=undefined?f.bubbles:u.bubbles;f.bubbleSize=n.bubbleSize!=undefined?n.bubbleSize:f.bubbleSize!=undefined?f.bubbleSize:u.bubbleSize;f.imgBubbles=n.imgBubbles!=undefined?n.imgBubbles:f.imgBubbles!=undefined?f.imgBubbles:u.imgBubbles;f.bgClose=n.bgClose!=undefined?n.bgClose:f.bgClose!=undefined?f.bgClose:u.bgClose;f.piracy=n.piracy!=undefined?n.piracy:f.piracy!=undefined?f.piracy:u.piracy;f.imgAnim=n.imgAnim!=undefined?n.imgAnim:f.imgAnim!=undefined?f.imgAnim:u.imgAnim;f.textValues=n.textValues!=undefined?n.textValues:f.textValues!=undefined?f.textValues:u.textValues}),f.onOpen=f.onOpen!=undefined?f.onOpen:angular.noop,f.onClose=f.onClose!=undefined?f.onClose:angular.noop,f.onDelete=f.onDelete!=undefined?f.onDelete:angular.noop,f.onEdit=f.onEdit!=undefined?f.onEdit:angular.noop,s=!0,f.$watchCollection("images",function(){s?s=!1:f.images.length&&f._setActiveImg(f.images[f._activeImageIndex||0])}),h=!0,f.$watch("_activeImageIndex",function(n){h?h=!1:f.images.length&&f._setActiveImg(f.images[n])}),f.$watch("inline",function(){i(function(){f.inline&&f.methods.open()})}),f.methods.open=function(n){f._activeImageIndex=n?n:0;f.opened=!0;f.inline||angular.element(document.body).addClass("body-overflow-hidden");i(function(){f.onOpen()},300)},f.methods.close=function(){f.opened=!1;angular.element(document.body).removeClass("body-overflow-hidden");i(function(){f.onClose();f._activeImageIndex=0},300)},f.methods.next=function(){f._activeImageIndex=f._activeImageIndex==f.images.length-1?0:f._activeImageIndex+1},f.methods.prev=function(){f._activeImageIndex==0?f._activeImageIndex=f.images.length-1:f._activeImageIndex--},f.backgroundClose=function(n){var i,t;if(f.bgClose&&!f.inline)for(i=["galleria-image","destroy-icons-container","ext-url","close","next","prev","galleria-bubble"],t=0;t<n.target.classList.length;t++)if(i.indexOf(n.target.classList[t])!=-1)break;else f.methods.close()},angular.element(document).bind("keyup",function(t){f.inline||(t.which==n.right||t.which==n.enter?i(function(){f.methods.next()}):t.which==n.left?i(function(){f.methods.prev()}):t.which==n.esc&&i(function(){f.methods.close()}))}),window.Hammer){o=new Hammer(e[0]);o.on("swiperight",function(){i(function(){f.methods.prev()})});o.on("swipeleft",function(){i(function(){f.methods.next()})});o.on("doubletap",function(){f.inline||i(function(){f.methods.close()})})}c=function(){angular.element(document.body).removeClass("body-overflow-hidden")};t.$on("$stateChangeSuccess",c);t.$on("$routeChangeSuccess",c)}}}}])})();
+
+/***/ }),
+/* 15 */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 16 */
+/***/ (function(module, exports) {
+
+
+/**
+ * When source maps are enabled, `style-loader` uses a link element with a data-uri to
+ * embed the css on the page. This breaks all relative urls because now they are relative to a
+ * bundle instead of the current page.
+ *
+ * One solution is to only use full urls, but that may be impossible.
+ *
+ * Instead, this function "fixes" the relative urls to be absolute according to the current page location.
+ *
+ * A rudimentary test suite is located at `test/fixUrls.js` and can be run via the `npm test` command.
+ *
+ */
+
+module.exports = function (css) {
+  // get current location
+  var location = typeof window !== "undefined" && window.location;
+
+  if (!location) {
+    throw new Error("fixUrls requires window.location");
+  }
+
+	// blank or null?
+	if (!css || typeof css !== "string") {
+	  return css;
+  }
+
+  var baseUrl = location.protocol + "//" + location.host;
+  var currentDir = baseUrl + location.pathname.replace(/\/[^\/]*$/, "/");
+
+	// convert each url(...)
+	/*
+	This regular expression is just a way to recursively match brackets within
+	a string.
+
+	 /url\s*\(  = Match on the word "url" with any whitespace after it and then a parens
+	   (  = Start a capturing group
+	     (?:  = Start a non-capturing group
+	         [^)(]  = Match anything that isn't a parentheses
+	         |  = OR
+	         \(  = Match a start parentheses
+	             (?:  = Start another non-capturing groups
+	                 [^)(]+  = Match anything that isn't a parentheses
+	                 |  = OR
+	                 \(  = Match a start parentheses
+	                     [^)(]*  = Match anything that isn't a parentheses
+	                 \)  = Match a end parentheses
+	             )  = End Group
+              *\) = Match anything and then a close parens
+          )  = Close non-capturing group
+          *  = Match anything
+       )  = Close capturing group
+	 \)  = Match a close parens
+
+	 /gi  = Get all matches, not the first.  Be case insensitive.
+	 */
+	var fixedCss = css.replace(/url\s*\(((?:[^)(]|\((?:[^)(]+|\([^)(]*\))*\))*)\)/gi, function(fullMatch, origUrl) {
+		// strip quotes (if they exist)
+		var unquotedOrigUrl = origUrl
+			.trim()
+			.replace(/^"(.*)"$/, function(o, $1){ return $1; })
+			.replace(/^'(.*)'$/, function(o, $1){ return $1; });
+
+		// already a full url? no change
+		if (/^(#|data:|http:\/\/|https:\/\/|file:\/\/\/)/i.test(unquotedOrigUrl)) {
+		  return fullMatch;
+		}
+
+		// convert the url to a full url
+		var newUrl;
+
+		if (unquotedOrigUrl.indexOf("//") === 0) {
+		  	//TODO: should we add protocol?
+			newUrl = unquotedOrigUrl;
+		} else if (unquotedOrigUrl.indexOf("/") === 0) {
+			// path should be relative to the base url
+			newUrl = baseUrl + unquotedOrigUrl; // already starts with '/'
+		} else {
+			// path should be relative to current directory
+			newUrl = currentDir + unquotedOrigUrl.replace(/^\.\//, ""); // Strip leading './'
+		}
+
+		// send back the fixed url(...)
+		return "url(" + JSON.stringify(newUrl) + ")";
+	});
+
+	// send back the fixed css
+	return fixedCss;
+};
+
+
+/***/ }),
+/* 17 */,
+/* 18 */,
+/* 19 */,
+/* 20 */,
+/* 21 */,
+/* 22 */,
+/* 23 */,
+/* 24 */,
+/* 25 */,
+/* 26 */,
+/* 27 */,
+/* 28 */,
+/* 29 */,
+/* 30 */,
+/* 31 */,
+/* 32 */,
+/* 33 */,
+/* 34 */,
+/* 35 */,
+/* 36 */,
+/* 37 */,
+/* 38 */,
+/* 39 */,
+/* 40 */,
+/* 41 */,
+/* 42 */,
+/* 43 */,
+/* 44 */,
+/* 45 */,
+/* 46 */,
+/* 47 */,
+/* 48 */,
+/* 49 */,
+/* 50 */,
+/* 51 */,
+/* 52 */,
+/* 53 */,
+/* 54 */
+/***/ (function(module, exports) {
+
+/*
+	MIT License http://www.opensource.org/licenses/mit-license.php
+	Author Tobias Koppers @sokra
+*/
+// css base code, injected by the css-loader
+module.exports = function(useSourceMap) {
+	var list = [];
+
+	// return the list of modules as css string
+	list.toString = function toString() {
+		return this.map(function (item) {
+			var content = cssWithMappingToString(item, useSourceMap);
+			if(item[2]) {
+				return "@media " + item[2] + "{" + content + "}";
+			} else {
+				return content;
+			}
+		}).join("");
+	};
+
+	// import a list of modules into the list
+	list.i = function(modules, mediaQuery) {
+		if(typeof modules === "string")
+			modules = [[null, modules, ""]];
+		var alreadyImportedModules = {};
+		for(var i = 0; i < this.length; i++) {
+			var id = this[i][0];
+			if(typeof id === "number")
+				alreadyImportedModules[id] = true;
+		}
+		for(i = 0; i < modules.length; i++) {
+			var item = modules[i];
+			// skip already imported module
+			// this implementation is not 100% perfect for weird media query combinations
+			//  when a module is imported multiple times with different media queries.
+			//  I hope this will never occur (Hey this way we have smaller bundles)
+			if(typeof item[0] !== "number" || !alreadyImportedModules[item[0]]) {
+				if(mediaQuery && !item[2]) {
+					item[2] = mediaQuery;
+				} else if(mediaQuery) {
+					item[2] = "(" + item[2] + ") and (" + mediaQuery + ")";
+				}
+				list.push(item);
+			}
+		}
+	};
+	return list;
+};
+
+function cssWithMappingToString(item, useSourceMap) {
+	var content = item[1] || '';
+	var cssMapping = item[3];
+	if (!cssMapping) {
+		return content;
+	}
+
+	if (useSourceMap && typeof btoa === 'function') {
+		var sourceMapping = toComment(cssMapping);
+		var sourceURLs = cssMapping.sources.map(function (source) {
+			return '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'
+		});
+
+		return [content].concat(sourceURLs).concat([sourceMapping]).join('\n');
+	}
+
+	return [content].join('\n');
+}
+
+// Adapted from convert-source-map (MIT)
+function toComment(sourceMap) {
+	// eslint-disable-next-line no-undef
+	var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));
+	var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;
+
+	return '/*# ' + data + ' */';
+}
+
+
+/***/ }),
+/* 55 */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*
+	MIT License http://www.opensource.org/licenses/mit-license.php
+	Author Tobias Koppers @sokra
+*/
+
+var stylesInDom = {};
+
+var	memoize = function (fn) {
+	var memo;
+
+	return function () {
+		if (typeof memo === "undefined") memo = fn.apply(this, arguments);
+		return memo;
+	};
+};
+
+var isOldIE = memoize(function () {
+	// Test for IE <= 9 as proposed by Browserhacks
+	// @see http://browserhacks.com/#hack-e71d8692f65334173fee715c222cb805
+	// Tests for existence of standard globals is to allow style-loader
+	// to operate correctly into non-standard environments
+	// @see https://github.com/webpack-contrib/style-loader/issues/177
+	return window && document && document.all && !window.atob;
+});
+
+var getElement = (function (fn) {
+	var memo = {};
+
+	return function(selector) {
+		if (typeof memo[selector] === "undefined") {
+			var styleTarget = fn.call(this, selector);
+			// Special case to return head of iframe instead of iframe itself
+			if (styleTarget instanceof window.HTMLIFrameElement) {
+				try {
+					// This will throw an exception if access to iframe is blocked
+					// due to cross-origin restrictions
+					styleTarget = styleTarget.contentDocument.head;
+				} catch(e) {
+					styleTarget = null;
+				}
+			}
+			memo[selector] = styleTarget;
+		}
+		return memo[selector]
+	};
+})(function (target) {
+	return document.querySelector(target)
+});
+
+var singleton = null;
+var	singletonCounter = 0;
+var	stylesInsertedAtTop = [];
+
+var	fixUrls = __webpack_require__(16);
+
+module.exports = function(list, options) {
+	if (typeof DEBUG !== "undefined" && DEBUG) {
+		if (typeof document !== "object") throw new Error("The style-loader cannot be used in a non-browser environment");
+	}
+
+	options = options || {};
+
+	options.attrs = typeof options.attrs === "object" ? options.attrs : {};
+
+	// Force single-tag solution on IE6-9, which has a hard limit on the # of <style>
+	// tags it will allow on a page
+	if (!options.singleton) options.singleton = isOldIE();
+
+	// By default, add <style> tags to the <head> element
+	if (!options.insertInto) options.insertInto = "head";
+
+	// By default, add <style> tags to the bottom of the target
+	if (!options.insertAt) options.insertAt = "bottom";
+
+	var styles = listToStyles(list, options);
+
+	addStylesToDom(styles, options);
+
+	return function update (newList) {
+		var mayRemove = [];
+
+		for (var i = 0; i < styles.length; i++) {
+			var item = styles[i];
+			var domStyle = stylesInDom[item.id];
+
+			domStyle.refs--;
+			mayRemove.push(domStyle);
+		}
+
+		if(newList) {
+			var newStyles = listToStyles(newList, options);
+			addStylesToDom(newStyles, options);
+		}
+
+		for (var i = 0; i < mayRemove.length; i++) {
+			var domStyle = mayRemove[i];
+
+			if(domStyle.refs === 0) {
+				for (var j = 0; j < domStyle.parts.length; j++) domStyle.parts[j]();
+
+				delete stylesInDom[domStyle.id];
+			}
+		}
+	};
+};
+
+function addStylesToDom (styles, options) {
+	for (var i = 0; i < styles.length; i++) {
+		var item = styles[i];
+		var domStyle = stylesInDom[item.id];
+
+		if(domStyle) {
+			domStyle.refs++;
+
+			for(var j = 0; j < domStyle.parts.length; j++) {
+				domStyle.parts[j](item.parts[j]);
+			}
+
+			for(; j < item.parts.length; j++) {
+				domStyle.parts.push(addStyle(item.parts[j], options));
+			}
+		} else {
+			var parts = [];
+
+			for(var j = 0; j < item.parts.length; j++) {
+				parts.push(addStyle(item.parts[j], options));
+			}
+
+			stylesInDom[item.id] = {id: item.id, refs: 1, parts: parts};
+		}
+	}
+}
+
+function listToStyles (list, options) {
+	var styles = [];
+	var newStyles = {};
+
+	for (var i = 0; i < list.length; i++) {
+		var item = list[i];
+		var id = options.base ? item[0] + options.base : item[0];
+		var css = item[1];
+		var media = item[2];
+		var sourceMap = item[3];
+		var part = {css: css, media: media, sourceMap: sourceMap};
+
+		if(!newStyles[id]) styles.push(newStyles[id] = {id: id, parts: [part]});
+		else newStyles[id].parts.push(part);
+	}
+
+	return styles;
+}
+
+function insertStyleElement (options, style) {
+	var target = getElement(options.insertInto)
+
+	if (!target) {
+		throw new Error("Couldn't find a style target. This probably means that the value for the 'insertInto' parameter is invalid.");
+	}
+
+	var lastStyleElementInsertedAtTop = stylesInsertedAtTop[stylesInsertedAtTop.length - 1];
+
+	if (options.insertAt === "top") {
+		if (!lastStyleElementInsertedAtTop) {
+			target.insertBefore(style, target.firstChild);
+		} else if (lastStyleElementInsertedAtTop.nextSibling) {
+			target.insertBefore(style, lastStyleElementInsertedAtTop.nextSibling);
+		} else {
+			target.appendChild(style);
+		}
+		stylesInsertedAtTop.push(style);
+	} else if (options.insertAt === "bottom") {
+		target.appendChild(style);
+	} else if (typeof options.insertAt === "object" && options.insertAt.before) {
+		var nextSibling = getElement(options.insertInto + " " + options.insertAt.before);
+		target.insertBefore(style, nextSibling);
+	} else {
+		throw new Error("[Style Loader]\n\n Invalid value for parameter 'insertAt' ('options.insertAt') found.\n Must be 'top', 'bottom', or Object.\n (https://github.com/webpack-contrib/style-loader#insertat)\n");
+	}
+}
+
+function removeStyleElement (style) {
+	if (style.parentNode === null) return false;
+	style.parentNode.removeChild(style);
+
+	var idx = stylesInsertedAtTop.indexOf(style);
+	if(idx >= 0) {
+		stylesInsertedAtTop.splice(idx, 1);
+	}
+}
+
+function createStyleElement (options) {
+	var style = document.createElement("style");
+
+	options.attrs.type = "text/css";
+
+	addAttrs(style, options.attrs);
+	insertStyleElement(options, style);
+
+	return style;
+}
+
+function createLinkElement (options) {
+	var link = document.createElement("link");
+
+	options.attrs.type = "text/css";
+	options.attrs.rel = "stylesheet";
+
+	addAttrs(link, options.attrs);
+	insertStyleElement(options, link);
+
+	return link;
+}
+
+function addAttrs (el, attrs) {
+	Object.keys(attrs).forEach(function (key) {
+		el.setAttribute(key, attrs[key]);
+	});
+}
+
+function addStyle (obj, options) {
+	var style, update, remove, result;
+
+	// If a transform function was defined, run it on the css
+	if (options.transform && obj.css) {
+	    result = options.transform(obj.css);
+
+	    if (result) {
+	    	// If transform returns a value, use that instead of the original css.
+	    	// This allows running runtime transformations on the css.
+	    	obj.css = result;
+	    } else {
+	    	// If the transform function returns a falsy value, don't add this css.
+	    	// This allows conditional loading of css
+	    	return function() {
+	    		// noop
+	    	};
+	    }
+	}
+
+	if (options.singleton) {
+		var styleIndex = singletonCounter++;
+
+		style = singleton || (singleton = createStyleElement(options));
+
+		update = applyToSingletonTag.bind(null, style, styleIndex, false);
+		remove = applyToSingletonTag.bind(null, style, styleIndex, true);
+
+	} else if (
+		obj.sourceMap &&
+		typeof URL === "function" &&
+		typeof URL.createObjectURL === "function" &&
+		typeof URL.revokeObjectURL === "function" &&
+		typeof Blob === "function" &&
+		typeof btoa === "function"
+	) {
+		style = createLinkElement(options);
+		update = updateLink.bind(null, style, options);
+		remove = function () {
+			removeStyleElement(style);
+
+			if(style.href) URL.revokeObjectURL(style.href);
+		};
+	} else {
+		style = createStyleElement(options);
+		update = applyToTag.bind(null, style);
+		remove = function () {
+			removeStyleElement(style);
+		};
+	}
+
+	update(obj);
+
+	return function updateStyle (newObj) {
+		if (newObj) {
+			if (
+				newObj.css === obj.css &&
+				newObj.media === obj.media &&
+				newObj.sourceMap === obj.sourceMap
+			) {
+				return;
+			}
+
+			update(obj = newObj);
+		} else {
+			remove();
+		}
+	};
+}
+
+var replaceText = (function () {
+	var textStore = [];
+
+	return function (index, replacement) {
+		textStore[index] = replacement;
+
+		return textStore.filter(Boolean).join('\n');
+	};
+})();
+
+function applyToSingletonTag (style, index, remove, obj) {
+	var css = remove ? "" : obj.css;
+
+	if (style.styleSheet) {
+		style.styleSheet.cssText = replaceText(index, css);
+	} else {
+		var cssNode = document.createTextNode(css);
+		var childNodes = style.childNodes;
+
+		if (childNodes[index]) style.removeChild(childNodes[index]);
+
+		if (childNodes.length) {
+			style.insertBefore(cssNode, childNodes[index]);
+		} else {
+			style.appendChild(cssNode);
+		}
+	}
+}
+
+function applyToTag (style, obj) {
+	var css = obj.css;
+	var media = obj.media;
+
+	if(media) {
+		style.setAttribute("media", media)
+	}
+
+	if(style.styleSheet) {
+		style.styleSheet.cssText = css;
+	} else {
+		while(style.firstChild) {
+			style.removeChild(style.firstChild);
+		}
+
+		style.appendChild(document.createTextNode(css));
+	}
+}
+
+function updateLink (link, options, obj) {
+	var css = obj.css;
+	var sourceMap = obj.sourceMap;
+
+	/*
+		If convertToAbsoluteUrls isn't defined, but sourcemaps are enabled
+		and there is no publicPath defined then lets turn convertToAbsoluteUrls
+		on by default.  Otherwise default to the convertToAbsoluteUrls option
+		directly
+	*/
+	var autoFixUrls = options.convertToAbsoluteUrls === undefined && sourceMap;
+
+	if (options.convertToAbsoluteUrls || autoFixUrls) {
+		css = fixUrls(css);
+	}
+
+	if (sourceMap) {
+		// http://stackoverflow.com/a/26603875
+		css += "\n/*# sourceMappingURL=data:application/json;base64," + btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))) + " */";
+	}
+
+	var blob = new Blob([css], { type: "text/css" });
+
+	var oldSrc = link.href;
+
+	link.href = URL.createObjectURL(blob);
+
+	if(oldSrc) URL.revokeObjectURL(oldSrc);
+}
+
 
 /***/ })
 /******/ ]);

@@ -14,6 +14,8 @@ import './app/contact/contact.controller.js';
 import './app/contact/contact.scss';
 import './app/electric-services/electric-services.routes.js';
 import './app/electric-services/electric-services.controller.js';
+import './app/electric-services/electric-services.scss';
 import './app/photo-gallery/photo-gallery.routes.js';
 import './app/photo-gallery/photo-gallery.controller.js';
+import './app/photo-gallery/photo-gallery.scss';
 import './app/services/aws.service.js';

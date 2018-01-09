@@ -6,3 +6,5 @@ import 'angular-animate/angular-animate.min.js';
 import 'angular-aria';
 import 'angular-material';
 import 'angular-ui-router';
+import 'ng-image-gallery/dist/ng-image-gallery.min.js';
+import 'ng-image-gallery/dist/ng-image-gallery.min.css';
